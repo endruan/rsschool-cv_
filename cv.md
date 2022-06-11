@@ -28,3 +28,7 @@ console.log(areYouPlayingBanjo('Jon'));
 console.log(areYouPlayingBanjo('Ron'));
 ```
 
+## Work Experience
+
+* [Rsschool-cv](https://github.com/endruan/rsschool-cv)
+
