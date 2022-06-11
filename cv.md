@@ -6,3 +6,9 @@
 ## About me
 I'm a factory worker. I decided to devote my free time to studying Front-end. And change your profession in the near future.
 
+## Languages and Tools
+* HTML
+* CSS
+* Git
+* Sass
+
