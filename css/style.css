@@ -1,7 +1,46 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   font-family: 'Cinzel', serif;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 70px;
+  background-color: rgba(41, 68, 25, 0.39);
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 70px;
+  transition: .3s;
+}
+
+.nav-list {
+  display: flex;
+  
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-item a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.nav-item a:hover {
+  color: #4d2323;
 }
