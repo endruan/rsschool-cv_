@@ -33,6 +33,7 @@ a:hover {
 code {
   font-family: 'Monospace', monospace;
   line-height: 1.4;
+  max-width: 100vw;
 }
 
 .container {
@@ -117,6 +118,57 @@ h1.section-title {
   border-radius: 100px;
 }
 
+.footer {
+  height: 70px;
+  color: #fff;
+  background-color: rgba(41, 68, 25, 0.39);
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 100%;
+}
+
+.footer-svg {
+  margin-right: 7px;
+  transition: all 0.5s;
+}
+
+
+.footer-left {
+  display: flex;
+  letter-spacing: 2px;
+}
+
+.footer-left-text {
+  padding-right: 20px;
+}
+
+.footer-link {
+  display: flex;
+  color: #fff;
+  fill: #fff;
+}
+
+.footer-link:hover {
+  fill: #5d7260;
+  color: #5d7260;
+}
+
+.footer-right-img {
+  height: 30px;
+  -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
+}
+
+.footer-right-img:hover {
+  -webkit-filter: none;
+  filter: none;
+}
+
+
 @media (max-width: 768px) {
   .section {
     width: 100%;
@@ -124,5 +176,9 @@ h1.section-title {
 
   .section-profile{
     flex-wrap: wrap;
+  }
+
+  pre {
+    overflow: scroll;
   }
 }
